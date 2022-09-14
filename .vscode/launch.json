@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+        "type": "python",
+        "request": "launch",
+        "name": "live server",
+        // "preLaunchTask": "livereload LilL_Monsters_Site",
+        "program": "${workspaceFolder}/started.py"
+    }
+  ]
+}
