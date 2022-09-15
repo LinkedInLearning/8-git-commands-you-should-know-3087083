@@ -8,7 +8,7 @@
     // Additional Extensions Here
   ],
   "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
-  "postCreateCommand": "pip3 installlivereload"
+  "postCreateCommand": "pip3 install livereload"
 }
 
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
