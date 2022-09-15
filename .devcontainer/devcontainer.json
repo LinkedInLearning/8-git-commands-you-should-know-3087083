@@ -8,7 +8,7 @@
     "ms-python.python"
     // Additional Extensions Here
   ],
-  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc && echo ZSH_THEME='\"robbyrussell\"' >> ~/.zshrc", //Set Terminal Prompt to $
   "postCreateCommand": "pip3 install livereload"
 }
 
