@@ -1,5 +1,5 @@
 # 8 Git Commands You Should Know 
-This is the repository for the LinkedIn Learning course 8 Git Commands You Should Know . The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course 8 Git Commands You Should Know. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![8 Git Commands You Should Know ][lil-thumbnail-url]
 
