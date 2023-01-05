@@ -85,12 +85,12 @@ html {
 .site-header .header-cue-icon {
   animation: slide-down 0.5s 1.8s forwards, pulse 2s 4s ease-in-out infinite;
   transform: translateY(-2rem);
-  opacity: 1;
+  opacity: .5;
 }
 
 .appear {
   animation: clear 1s 0.5s forwards;
-  opacity: 0;
+  opacity: .30;
   transform: scale(0.9);
 }
 
