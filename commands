@@ -1,0 +1,22 @@
+git config --global user.name "username"  (enter the username)
+
+git config --global user.email "email"	(enter the mail)
+
+git init (to initialise an empty git repo)
+
+git status ( to see the status of the files (staged, commited,etc))
+
+git add "filename" (to bring the file into the staging area)
+
+git commit "filename" (it becomes very important to make atleast one commit in order to start tracking of the file)
+
+git add -A (to put multiple files into the staging Area)
+
+[Note: if you will make changes on your file even after staging it then it's status will be shown as modified and we will have to again add it to the staging process and then commit it.]
+
+
+
+{ to push the code to the branch}
+1) commit the changes->> git commit
+2) check the current working branch->> git branch -a
+3) push the changes--> git push origin "your branch name"
