@@ -27,6 +27,10 @@ git add -A (to put multiple files into the staging Area)
     either to commit and push or delete those modifications. It's just like putting the code in the pocket for a time.
 
    (b) git stash save "name of the stash" - It would work in the same way as
-   2(a) but, here we will be naming our stash for ease. It is handy where we have to manage quite a number of changes.
+   2a but, here we will be naming our stash for ease. It is handy where we have to manage quite a number of changes.
 
-   (c) git stash list - to view all the saved stashes.
+   (c) git stash pop - It is used to pop/remove/delete/ the topmost stash.
+
+   (d) git stash list - to view all the saved stashes.
+
+   (e) git stash apply 's no.' - in order to apply the stashed modification.
