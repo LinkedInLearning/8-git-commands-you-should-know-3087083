@@ -31,6 +31,6 @@ git add -A (to put multiple files into the staging Area)
 
    (c) git stash pop - It is used to pop/remove/delete/ the topmost stash.
 
-   (d) git stash list - to view all the saved stashes.
+   (d) git stash list - to view all the saved stashes. (delete this)
 
    (e) git stash apply 's no.' - in order to apply the stashed modification.
