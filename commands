@@ -1,3 +1,5 @@
+-- Basics --
+
 git config --global user.name "username" (enter the username)
 
 git config --global user.email "email" (enter the mail)
@@ -14,15 +16,18 @@ git add -A (to put multiple files into the staging Area)
 
 [Note: if you will make changes on your file even after staging it then it's status will be shown as modified and we will have to again add it to the staging process and then commit it.]
 
-{ to push the code to the branch}
+-- Necessities --
 
 1. commit the changes->> git commit
+
 2. check the current working branch->> git branch -a
+
 3. push the changes--> git push origin "your branch name"
 
---Intermediates--
+-- Intermediates --
 
 1. git diff - to see the modifications made before commit and push
+
 2. (a) git stash - to stash the modifications which could later be considered  
     either to commit and push or delete those modifications. It's just like putting the code in the pocket for a time.
 
