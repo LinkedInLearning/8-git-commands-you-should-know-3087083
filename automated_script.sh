@@ -7,5 +7,5 @@ git push
 echo "Done, status is "
 echo '---------------------------------------------'
 git status
-echo '---------------------------------------------''
-echo 'That saved hell a lot of typing labour >_<'
+echo '---------------------------------------------'
+echo 'That saved hell a lot of typing labour :)'
