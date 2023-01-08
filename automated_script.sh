@@ -8,4 +8,4 @@ echo "Done, status is "
 echo '---------------------------------------------'
 git status
 echo '---------------------------------------------''
-echo "That saved hell a lot of typing labour :)"
+echo 'That saved hell a lot of typing labour >_<'
