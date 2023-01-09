@@ -20,8 +20,9 @@ git add -A (to put multiple files into the staging Area)
 
 1. commit the changes - git commit
 
-2. push the changes - git push origin "your branch name"
+2. check the current working branch - git branch -a
 
+3. push the changes - git push origin "your branch name"
 
 -- Intermediates --
 
@@ -43,3 +44,15 @@ git add -A (to put multiple files into the staging Area)
    (f) git stash drop - to delete the topmost stash.
 
    (g) git stash drop 'stash no' - to delete the specific stash.
+
+3. (a) git branch 'branch name' - to create a new branch
+
+   (b) git branch -a - check the current working branch
+
+   (c) git checkout 'new_branch_name' - switch the branch
+
+   (d) git branch -d 'branch' - to delete a branch
+
+   (e) git merge 'branch name' - to add the changes
+
+4. (a) About push - It is better to use git push <remote> <branch name> which is an explicit form of pushing the changes to the repo as compared to using simple 'git push'
