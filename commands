@@ -20,9 +20,7 @@ git add -A (to put multiple files into the staging Area)
 
 1. commit the changes - git commit
 
-2. check the current working branch - git branch -a
-
-3. push the changes - git push origin "your branch name"
+2. push the changes - git push origin "your branch name"
 
 -- Intermediates --
 
