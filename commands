@@ -18,41 +18,41 @@ git add -A (to put multiple files into the staging Area)
 
 -- Necessities --
 
-1. commit the changes - git commit
+1.  git commit - commit the changes
 
-2. check the current working branch - git branch -a
+2.  git push origin "your branch name" - push the changes
 
-3. push the changes - git push origin "your branch name"
+3.  git log - view logs
 
 -- Intermediates --
 
-1. git diff - to see the modifications made before commit and push
+4.  git diff - to see the modifications made before commit and push
 
-2. (a) git stash - to stash the modifications which could later be considered  
-    either to commit and push or delete those modifications. It's just like putting the code in the pocket for a time.
+5.  (a) git stash - to stash the modifications which could later be considered  
+     either to commit and push or delete those modifications. It's just like putting the code in the pocket for a time.
 
-   (b) git stash save "name of the stash" - It would work in the same way as
-   2a but, here we will be naming our stash for ease. It is handy where we have to manage quite a number of changes.
+    (b) git stash save "name of the stash" - It would work in the same way as
+    2a but, here we will be naming our stash for ease. It is handy where we have to manage quite a number of changes.
 
-   (c) git stash pop - It is used to pop (not delete) the topmost stash and
-   apply to the file(s).
+    (c) git stash pop - It is used to pop (not delete) the topmost stash and
+    apply to the file(s).
 
-   (d) git stash list - to view all the saved stashes. (delete this).
+    (d) git stash list - to view all the saved stashes. (delete this).
 
-   (e) git stash apply 'stash no.' - in order to apply the stashed modification.
+    (e) git stash apply 'stash no.' - in order to apply the stashed modification.
 
-   (f) git stash drop - to delete the topmost stash.
+    (f) git stash drop - to delete the topmost stash.
 
-   (g) git stash drop 'stash no' - to delete the specific stash.
+    (g) git stash drop 'stash no' - to delete the specific stash.
 
-3. (a) git branch 'branch name' - to create a new branch
+6.  (a) git branch 'branch name' - to create a new branch
 
-   (b) git branch -a - check the current working branch
+    (b) git branch -a - check the current working branch
 
-   (c) git checkout 'new_branch_name' - switch the branch
+    (c) git checkout 'new_branch_name' - switch the branch
 
-   (d) git branch -d 'branch' - to delete a branch
+    (d) git branch -d 'branch' - to delete a branch
 
-   (e) git merge 'branch name' - to add the changes
+    (e) git merge 'branch name' - to add the changes
 
-4. (a) About push - It is better to use git push <remote> <branch name> which is an explicit form of pushing the changes to the repo as compared to using simple 'git push'
+7.  (a) About push - It is better to use git push <remote> <branch name> which is an explicit form of pushing the changes to the repo as compared to using simple 'git push'
