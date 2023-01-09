@@ -22,6 +22,7 @@ git add -A (to put multiple files into the staging Area)
 
 2. push the changes - git push origin "your branch name"
 
+
 -- Intermediates --
 
 1. git diff - to see the modifications made before commit and push
