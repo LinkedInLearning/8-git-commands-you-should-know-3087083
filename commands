@@ -1,0 +1,58 @@
+-- Basics --
+
+git config --global user.name "username" (enter the username)
+
+git config --global user.email "email" (enter the mail)
+
+git init (to initialise an empty git repo)
+
+git status ( to see the status of the files (staged, commited,etc))
+
+git add "filename" (to bring the file into the staging area)
+
+git commit "filename" (it becomes very important to make atleast one commit in order to start tracking of the file)
+
+git add -A (to put multiple files into the staging Area)
+
+[Note: if you will make changes on your file even after staging it then it's status will be shown as modified and we will have to again add it to the staging process and then commit it.]
+
+-- Necessities --
+
+1.  git commit - commit the changes
+
+2.  git push origin "your branch name" - push the changes
+
+3.  git log - view logs
+
+-- Intermediates --
+
+4.  git diff - to see the modifications made before commit and push
+
+5.  (a) git stash - to stash the modifications which could later be considered  
+     either to commit and push or delete those modifications. It's just like putting the code in the pocket for a time.
+
+    (b) git stash save "name of the stash" - It would work in the same way as
+    2a but, here we will be naming our stash for ease. It is handy where we have to manage quite a number of changes.
+
+    (c) git stash pop - It is used to pop (not delete) the topmost stash and
+    apply to the file(s).
+
+    (d) git stash list - to view all the saved stashes. (delete this).
+
+    (e) git stash apply 'stash no.' - in order to apply the stashed modification.
+
+    (f) git stash drop - to delete the topmost stash.
+
+    (g) git stash drop 'stash no' - to delete the specific stash.
+
+6.  (a) git branch 'branch name' - to create a new branch
+
+    (b) git branch -a - check the current working branch
+
+    (c) git checkout 'new_branch_name' - switch the branch
+
+    (d) git branch -d 'branch' - to delete a branch
+
+    (e) git merge 'branch name' - to add the changes
+
+7.  (a) About push - It is better to use git push <remote> <branch name> which is an explicit form of pushing the changes to the repo as compared to using simple 'git push'
