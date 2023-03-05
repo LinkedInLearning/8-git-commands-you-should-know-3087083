@@ -70,7 +70,7 @@ html {
 .site-header .header-subtitle {
   animation: clear 1s 0.7s forwards;
   transform: translateY(10rem);
-  opacity: 0;
+  opacity: 0.30;
 }
 
 .site-header .header-cue {
