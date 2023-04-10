@@ -20,7 +20,7 @@ html {
 }
 
 .site-header::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -42,7 +42,7 @@ html {
 }
 
 .site-nav .nav-link::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   max-width: 100px;
